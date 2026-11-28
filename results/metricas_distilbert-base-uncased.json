@@ -1,0 +1,14 @@
+{
+  "modelo": "distilbert-base-uncased",
+  "max_len": 128,
+  "epochs": 3,
+  "batch_size": 32,
+  "lr": 2e-05,
+  "n_test": 41690,
+  "accuracy": 0.8693451667066443,
+  "macro_f1": 0.8618413574155861,
+  "recall_negativo": 0.8114918292040063,
+  "train_time_s": 904.489093494,
+  "infer_ms_per_comment": 0.5420362739505838,
+  "device_infer": "GPU"
+}
